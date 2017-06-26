@@ -1,0 +1,1 @@
+A wikipedia viewer. Type and click on search to get 50 entries with that keyword in the title. Click on random to go to a ramdom wikipedia page.

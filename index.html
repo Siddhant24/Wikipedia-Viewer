@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container fluid">
+  <div class="title text-danger text-center">
+    <h1> WIKIPEDIA VIEWER </h1>
+  </div>
+  <div class="info">
+    <h3 class="text-danger">Search for a Wikipedia page or click on random to go to a random Wikipedia page.</h3>
+  </div>
+  <div class="input">
+    <input type="text" name="search" id="input-text" placeholder="Page title" required>
+    <input type="submit" id="search" value="Search" class="btn btn-primary">
+    <button class="btn btn-danger" onclick="window.open('https://en.wikipedia.org/wiki/Special:Random');">Random</button>
+  </div>
+  <div class="search-results">
+    <ul id="search-list">
+    </ul>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
